@@ -31,8 +31,6 @@ ActiveRecord::Schema.define(version: 20240813125244) do
     t.integer  "genre_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["artist_id"], name: "index_songs_on_artist_id"
-    t.index ["genre_id"], name: "index_songs_on_genre_id"
   end
 
 end
